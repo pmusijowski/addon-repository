@@ -27,9 +27,8 @@ RUN apt-get update \
     && apt-get clean -y \
     && rm -rf /var/lib/apt/lists/*
 
-ENTRYPOINT ["exec /init"]
 COPY rootfs /
 
 EXPOSE 631
 
-CMD ["exec /run.sh"]
+CMD ["/run.sh"]

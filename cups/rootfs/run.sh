@@ -54,4 +54,4 @@ until [ -e /var/run/avahi-daemon/socket ]; do
 done
 
 # Start CUPS
-exec /usr/sbin/cupsd -f
+/usr/sbin/cupsd -f
