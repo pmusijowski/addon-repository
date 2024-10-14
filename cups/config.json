@@ -12,6 +12,7 @@
         "i386"
     ],
     "startup": "application",
+    "init": "false",
     "boot": "auto",
     "usb": "true",
     "homeassistant_api": true,
