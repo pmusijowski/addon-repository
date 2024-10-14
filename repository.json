@@ -1,5 +1,5 @@
 {
-    "name": "Nicholas' Addon Repository",
-    "url": "https://github.com/ncarr/addon-repository",
-    "maintainer": "Nicholas Carr"
+    "name": "Fork of Nicholas' Addon Repository by pmusijowski",
+    "url": "https://github.com/pmusijowski/addon-repository.git",
+    "maintainer": "Pawel Musijowski"
 }
